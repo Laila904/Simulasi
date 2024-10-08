@@ -1,12 +1,12 @@
 Laporan SimulasiUts
 1. Langkah pertama yaitu membuat class Utils untuk mengkonversi data dari ResultSet menjadi model tabel (TableModel)
 yang dapat ditampilkan pada komponen tabel di Java Swing.
-    ![Util](https://github.com/user-attachments/assets/613b1148-3e22-4c0f-a8cf-f3c07b82442c)
+![Util](https://github.com/user-attachments/assets/613b1148-3e22-4c0f-a8cf-f3c07b82442c)
 
 3. Langkah kedua yaitu  membuat tampilan GUI yang sudah dihubungkan dengan database posgreSQL
-   ![tabel](https://github.com/user-attachments/assets/5e8968cd-193f-4930-b46a-d0475e15cf76)
+![tabel](https://github.com/user-attachments/assets/5e8968cd-193f-4930-b46a-d0475e15cf76)
 
-4.  Langkah ketiga yaitu memanggil dari button yang pertama yaitu insert.
+5.  Langkah ketiga yaitu memanggil dari button yang pertama yaitu insert.
    Tampilan source code dari Insert beserta Tampilan GUI :
    
    private void btnInsertActionPerformed(java.awt.event.ActionEvent evt) {                                          
@@ -56,8 +56,8 @@ yang dapat ditampilkan pada komponen tabel di Java Swing.
                               
     Tampilan ketika diinsert(atau "Tambah")
     ![Insert](https://github.com/user-attachments/assets/70fd91d8-062f-4104-8b19-cb06c3b08f17)
-    Hasil ketika insert berhasil
-    ![Hasil insert](https://github.com/user-attachments/assets/87844b32-edf1-480f-b563-e6e87746b2d6)
+Hasil ketika insert berhasil
+![Hasil insert](https://github.com/user-attachments/assets/87844b32-edf1-480f-b563-e6e87746b2d6)
 
    4. Langkah ketiga yaitu memanggil dari button yang kedua yaitu Update.
    Tampilan source code dari Update beserta Tampilan GUI :
@@ -117,8 +117,8 @@ yang dapat ditampilkan pada komponen tabel di Java Swing.
         showTable(); }                           
      Tampilan ketika di Update(atau "Ubah")
      ![Update](https://github.com/user-attachments/assets/d92beb0e-367e-403c-9ef8-a1a380ad1aff)
-     Hasil ketika Update berhasil
-     ![Hasil Update](https://github.com/user-attachments/assets/816fc6a8-2cd2-4855-a969-9aa9121332eb)
+Hasil ketika Update berhasil
+![Hasil Update](https://github.com/user-attachments/assets/816fc6a8-2cd2-4855-a969-9aa9121332eb)
 
  5. Langkah kelia yaitu memanggil dari button yang ketiga yaitu Delete.
    Tampilan source code dari Delete beserta Tampilan GUI :
